@@ -1,0 +1,13 @@
+.container{
+    height: 80vh;
+    background-color: aliceblue;
+    width: 100vw;
+
+
+}
+.titulo{
+    color: blue;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}

@@ -1,0 +1,13 @@
+.barraNavegacao{
+    height: 100px;
+    background-color: cadetblue;
+    color: black;
+    font-weight: bold;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
