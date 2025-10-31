@@ -1,7 +1,7 @@
 export function Autor(){
     return(
         <main>
-            <h1>Autor</h1>
+            <h1>Autor mundo de sofia </h1>
             <p>
                 O autor de "O Mundo de Sofia" é 
                 o filósofo e escritor norueguêsJostein Gaarder.

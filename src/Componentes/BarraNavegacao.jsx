@@ -10,6 +10,8 @@ export function BarraNavegacao(){
                 <Link to= '/'><li>Meu Livro</li></Link>
                 <Link to= 'autor'><li>Autor</li></Link>
                 <Link to= 'curiosidade'><li>Curiosidade</li></Link>
+
+            
             </ul>
         </nav>
     )

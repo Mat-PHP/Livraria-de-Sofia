@@ -1,13 +1,22 @@
-.barraNavegacao{
-    height: 100px;
-    background-color: cadetblue;
-    color: black;
-    font-weight: bold;
-
+.barranavegacao{
+    background-color: #10031d;
+    color: aliceblue;
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
 ul{
-    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-
+    font-size: 24px;
+    
 }
+
+/* 
+ height: 100px;
+    background-color: cadetblue;
+    color: black;
+    font-weight: bold; */
