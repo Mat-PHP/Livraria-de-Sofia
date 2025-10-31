@@ -10,6 +10,7 @@ export function Rotas(){
             <Route path='/' element= {<Inicial/>}>
             <Route index element={<Conteudo/>}/>
             <Route path='curiosidade' element={<Curiosidade/>}/>
+             <Route path='autor' element={<Autor/>}/>
             
 
             
