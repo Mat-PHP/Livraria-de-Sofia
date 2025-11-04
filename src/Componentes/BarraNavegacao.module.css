@@ -1,22 +1,28 @@
-.barranavegacao{
-    background-color: #10031d;
-    color: aliceblue;
-    height: 60px;
-    display: flex;
-    align-items: center;
-}
-ul{
-    gap: 20px;
-    text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    font-size: 24px;
-    
+.barraNavegacao {
+  background-color: #222; /* cor de fundo */
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center; /* centraliza verticalmente */
+  height: 60px;
 }
 
-/* 
- height: 100px;
-    background-color: cadetblue;
-    color: black;
-    font-weight: bold; */
+.barraNavegacao ul {
+  display: flex;
+  list-style: none;
+  gap: 30px; /* espaço entre os itens */
+  margin: 0;
+  padding: 0;
+}
+
+.barraNavegacao a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.barraNavegacao  {
+  color: #f39c12; /* cor ao passar o mouse */
+}

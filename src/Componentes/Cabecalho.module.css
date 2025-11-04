@@ -1,16 +1,11 @@
-.Cabecaçho{
-    background-color: black;
-    color: azure;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 100px;
-
+.livro {
+    font-size: 2rem;
+    color: #333;
 }
 
-.titulo{
-    font-size: 50px;
-    font-size: "Mozilla Text", sans-serif;
-    color: aliceblue;
-
-
+.imagem {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
 }

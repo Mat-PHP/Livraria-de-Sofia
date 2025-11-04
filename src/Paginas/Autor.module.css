@@ -1,8 +1,21 @@
-.conteiner{
-    background-color: #c1c1e9;
-
+.container {
+  text-align: calc(23);
+  padding: 10px;
 }
 
-.titulo{
-    color: black;
+.autorImg {
+  width: 200px;
+  border-radius: 10px;
+}
+ /* {
+  width: 1.5px;      
+  height: Autor;      
+  border-radius: 5px;
+  margin-top: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); 
+ } */
+.container p {
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 2.6;
 }
