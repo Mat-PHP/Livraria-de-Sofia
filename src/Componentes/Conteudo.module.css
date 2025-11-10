@@ -1,13 +1,17 @@
-.container{
-    height: 80vh;
-    background-color: aliceblue;
-    width: 100vw;
 
 
+.container {
+  text-align: calc(23);
+  padding: 10px;
 }
+
+.capa {
+  width: 200px;
+  border-radius: 10px;
+}
+
 .titulo{
-    color: blue;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 2.6;
 }

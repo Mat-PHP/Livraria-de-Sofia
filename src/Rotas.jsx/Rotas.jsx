@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Inicial } from '../Paginas/inicial';
 import { Autor} from  '../Paginas/Autor';
 import { Curiosidade } from "../Paginas/Curiosidade";
-import { Conteudo } from "../componentes/conteudo"
+import { Conteudo } from '../componentes/cabecalho';
 
 
 export function Rotas(){

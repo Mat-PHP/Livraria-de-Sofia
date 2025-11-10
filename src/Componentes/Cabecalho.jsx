@@ -1,17 +1,11 @@
 import estilo from './Cabecalho.module.css';
 import livro from '../assets/Mundo de Sofia.jpg';
 
-export function Cabecalho() {
+export function Conteudo() {
     return (
-        <main>
-            <h1 className={estilo.livro}>Livro</h1>
-            
-           
-            <img src={livro} className={estilo.jpg} />
-            
-            <p>
-                Essa é a capa do Mundo de Sofia.
-            </p>
+        <main className={estilo.container}>
+            <h1 className={estilo.titulo}>Mundo de Sofia</h1>
+            <img src={livro} className={estilo.capa} alt="Capa do livro Mundo de Sofia" />
         </main>
-    )
+    );
 }
