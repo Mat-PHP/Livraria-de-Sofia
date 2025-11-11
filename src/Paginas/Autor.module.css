@@ -1,15 +1,44 @@
 .container {
-  text-align: calc(23);
-  padding: 10px;
-}
-
-.autorImg {
-  width: 200px;
+  background-color: #0b1c1f;
+  color: #e5e5e5;
+  text-align: center;
+  margin: 40px auto;
+  padding: 40px;
+  width: 80%;
   border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
-.container p {
-  max-width: 600px;
-  margin: 20px auto;
-  line-height: 2.6;
+.titulo {
+  color: #d1b85c;
+  font-size: 2rem;
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+.figura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.imagem {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.legenda {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #b8b8b8;
+}
+
+.texto {
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-indent: 30px;
 }

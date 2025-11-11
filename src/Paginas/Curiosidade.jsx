@@ -1,29 +1,25 @@
-export function Curiosidade(){
-    return(
-        <main>
-            <h1>Curiosidade</h1>
+import estilo from './Curiosidade.module.css';
+import imagem from '../assets/Mundo de Sofia.jpg'; 
 
-            <p>
-               Sofia Amundsen Sofie Amundsen, na versão norueguesa é uma garota de catorze anos que vive na Noruega em 1990.
-                Ela mora com sua mãe, Helene Amundsen pois, seu pai é capitão de um navio petroleiro e fica fora a maior parte do ano.
-                 Ele não aparece no livro.
-            </p>
-
-           
-           
-            <p>
-                A vida de Sofia é chacoalhada no começo do livro, quando ela recebe duas mensagens anônimas, pela caixa de correio.
-                 Uma das mensagens era com a pergunta "Quem é você?" e a outra questionava "De onde vem o mundo?".
-                  Ela recebe também um cartão postal endereçado à "Hilde Møller Knag a/c Sofia Amundsen".
-                 A partir de então, ela passa a receber gradativamente um curso de filosofia por correspondência
-
-            </p>
-
-            
-
-            
-
-
-        </main>
-    )
+export function Curiosidade() {
+  return (
+    <main className={estilo.container}>
+      <h1 className={estilo.titulo}>Curiosidades sobre "O Mundo de Sofia"</h1>
+      <figure className={estilo.figura}>
+        <img src={imagem} alt="Capa do livro O Mundo de Sofia" className={estilo.imagem} />
+        <figcaption className={estilo.legenda}>Curiosidade</figcaption>
+      </figure>
+      <p className={estilo.texto}>
+         O Mundo de Sofia (em norueguês: Sofies Verden) é um romance escrito por Jostein Gaarder, publicado em 1991. O livro foi escrito originalmente em norueguês, mas já foi traduzido para mais de 60 línguas, e teve sua primeira edição em português em 1995, que atualmente se encontra na sua 36.ª edição revista, edição publicada pela Editorial Presença (Lisboa, janeiro de 2023).  
+      </p>
+      <p className={estilo.texto}>
+         O autor, Jostein Gaarder, escreveu o livro em apenas três meses. Sua ideia era ensinar filosofia por meio de uma história 
+        que despertasse a curiosidade dos leitores sobre as grandes perguntas da humanidade.  
+      </p>
+      <p className={estilo.texto}>
+         Em 1999, o livro foi adaptado para o cinema e posteriormente para uma série de TV norueguesa, consolidando sua importância 
+        como obra educativa e cultural.  
+      </p>
+    </main>
+  ) 
 }

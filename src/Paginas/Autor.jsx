@@ -1,25 +1,20 @@
-import autorImg from "../assets/autor.jpg";
-import estilo from '../Paginas/Autor.module.css'
+import estilo from './Autor.module.css';
+import escritor from '../assets/Autor.jpg'; // sua imagem
 
-
-
-export function Autor(){
-    return(
-        <main>
-            <h1 className={estilo.autor}>Autor  </h1>
-            <img src={autorImg} className={estilo.autorImg} />
-
-        
-            <p>
-                O autor de "O Mundo de Sofia" é 
-                o filósofo e escritor norueguês Jostein Gaarder.
-                 Gaarder nasceu em 1952 e se tornou mundialmente famoso com este livro, 
-                 publicado em 1991, que apresenta a história da filosofia ocidental de forma acessível para jovens e adultos. 
-                 Ele era professor de filosofia antes de se dedicar integralmente à escrita. 
-            </p>
-
-
-        </main>
-    )
-    
+export function Autor() {
+  return (
+    <main className={estilo.container}>
+      <h1 className={estilo.titulo}>Arthur Conan Doyle</h1>
+      <figure className={estilo.figura}>
+        <img src={escritor} alt="Arthur Conan Doyle" className={estilo.imagem} />
+        <figcaption className={estilo.legenda}>Sir Conan Doyle</figcaption>
+      </figure>
+      <p className={estilo.texto}>
+        Sir Arthur Conan Doyle vem sendo uma figura na história da literatura policial ao criar Sherlock Holmes,
+        seu maior personagem, conhecido mundialmente como um ícone do raciocínio lógico e da investigação.
+        Doyle deu vida ao detetive em uma série de contos e romances que se tornaram clássicos. Além disso, Doyle
+        era um homem de múltiplos interesses e um defensor da justiça em várias causas.
+      </p>
+    </main>
+  );
 }

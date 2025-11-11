@@ -1,16 +1,16 @@
 .barraNavegacao {
-  background-color: #222; /* cor de fundo */
+  background-color: #222; 
   padding: 10px 40px;
   display: flex;
-  justify-content: center; /* centraliza horizontalmente */
-  align-items: center; /* centraliza verticalmente */
+  justify-content: center; 
+  align-items: center; 
   height: 60px;
 }
 
 .barraNavegacao ul {
   display: flex;
   list-style: none;
-  gap: 30px; /* espaço entre os itens */
+  gap: 30px; 
   margin: 0;
   padding: 0;
 }
@@ -24,5 +24,6 @@
 }
 
 .barraNavegacao  {
-  color: #f39c12; /* cor ao passar o mouse */
+  color: #f39c12; 
+
 }

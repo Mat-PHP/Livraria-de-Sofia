@@ -18,4 +18,5 @@
   font-size: 2rem;
   color: #333;
   font-family: 'Georgia', serif;
+  text-transform: capitalize;
 }

@@ -1,17 +1,31 @@
-
-
 .container {
-  text-align: calc(23);
-  padding: 10px;
+  background-color: #142426;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: 80%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.subtitulo {
+  color: #d1b85c;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
 }
 
 .capa {
   width: 200px;
-  border-radius: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
-.titulo{
-  max-width: 600px;
-  margin: 20px auto;
-  line-height: 2.6;
+.texto {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+  text-indent: 30px;
 }
