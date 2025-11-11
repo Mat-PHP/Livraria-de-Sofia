@@ -4,10 +4,10 @@ import escritor from '../assets/Autor.jpg'; // sua imagem
 export function Autor() {
   return (
     <main className={estilo.container}>
-      <h1 className={estilo.titulo}>Arthur Conan Doyle</h1>
+      <h1 className={estilo.titulo}>Autor de mundo de Sofia</h1>
       <figure className={estilo.figura}>
         <img src={escritor} alt="Arthur Conan Doyle" className={estilo.imagem} />
-        <figcaption className={estilo.legenda}>Sir Conan Doyle</figcaption>
+        <figcaption className={estilo.legenda}>Autor de mundo de Sofia</figcaption>
       </figure>
       <p className={estilo.texto}>
         Sir Arthur Conan Doyle vem sendo uma figura na história da literatura policial ao criar Sherlock Holmes,
@@ -18,3 +18,7 @@ export function Autor() {
     </main>
   );
 }
+
+
+
+
